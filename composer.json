@@ -1,6 +1,7 @@
 {
     "name": "banri/storage-api",
     "description": "BANRI storage api for PHP",
+    "license": "MIT",
     "type": "library",
     "authors": [
         {
