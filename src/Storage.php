@@ -13,6 +13,12 @@ use GuzzleHttp\TransferStats;
 use League\Flysystem\Adapter\Local;
 use League\Flysystem\Filesystem;
 
+/**
+ * 仓库
+ *
+ * Class Storage
+ * @package BanriStorage
+ */
 class Storage
 {
     private $key = 'secretKey';

@@ -6,6 +6,12 @@ namespace BanriStorage;
 
 use GuzzleHttp\Exception\GuzzleException;
 
+/**
+ * 币种
+ *
+ * Class Currency
+ * @package BanriStorage
+ */
 class Currency
 {
     /**
@@ -14,6 +20,8 @@ class Currency
     private $storage;
 
     /**
+     * 获取币种列表
+     *
      * @param int $pageNum
      * @param int $pageSize
      * @param array $param

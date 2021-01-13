@@ -6,6 +6,12 @@ namespace BanriStorage;
 
 use GuzzleHttp\Exception\GuzzleException;
 
+/**
+ * 产品
+ *
+ * Class Product
+ * @package BanriStorage
+ */
 class Product implements Curd
 {
 
@@ -27,6 +33,8 @@ class Product implements Curd
     }
 
     /**
+     * 获取产品列表
+     *
      * @param int $pageNum
      * @param int $pageSize
      * @param array $param
@@ -41,6 +49,8 @@ class Product implements Curd
     }
 
     /**
+     * 添加产品
+     *
      * @param array $param
      * @return array
      * @throws GuzzleException
@@ -51,6 +61,8 @@ class Product implements Curd
     }
 
     /**
+     * 产品详情
+     *
      * @param int|string $code
      * @return array
      * @throws GuzzleException
@@ -63,6 +75,8 @@ class Product implements Curd
     }
 
     /**
+     * 更新产品
+     *
      * @param int|string $code
      * @param array $param
      * @return array
@@ -75,6 +89,8 @@ class Product implements Curd
     }
 
     /**
+     * 删除产品
+     *
      * @param int|string $code
      * @return array
      * @throws GuzzleException

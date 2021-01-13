@@ -6,6 +6,12 @@ namespace BanriStorage;
 
 use GuzzleHttp\Exception\GuzzleException;
 
+/**
+ * 快递
+ *
+ * Class Express
+ * @package BanriStorage
+ */
 class Express
 {
 
@@ -15,6 +21,8 @@ class Express
     private $storage;
 
     /**
+     * 获取快递列表
+     *
      * @param string|null $name
      * @return array
      * @throws GuzzleException

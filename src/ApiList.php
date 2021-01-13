@@ -4,7 +4,13 @@
 namespace BanriStorage;
 
 
-final class ApiList
+/**
+ * API请求地址
+ *
+ * Class ApiList
+ * @package BanriStorage
+ */
+class ApiList
 {
     /*
     |--------------------------------------------------------------------------

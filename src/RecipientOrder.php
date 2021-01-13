@@ -6,6 +6,12 @@ namespace BanriStorage;
 
 use GuzzleHttp\Exception\GuzzleException;
 
+/**
+ * 收货单
+ *
+ * Class RecipientOrder
+ * @package BanriStorage
+ */
 class RecipientOrder
 {
     /**
@@ -24,6 +30,8 @@ class RecipientOrder
     }
 
     /**
+     * 创建收货单
+     *
      * @param $param
      * @return array
      * @throws GuzzleException
