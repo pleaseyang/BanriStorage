@@ -89,6 +89,18 @@ class Storage
     }
 
     /**
+     * 回调 返回正确的响应
+     *
+     * @return string
+     */
+    public static function success()
+    {
+        return \GuzzleHttp\json_encode([
+           'status' => true
+        ]);
+    }
+
+    /**
      * @param TransferStats $stats
      * @throws Exception
      */
